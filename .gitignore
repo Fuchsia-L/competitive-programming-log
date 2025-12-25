@@ -1,0 +1,54 @@
+# ===== C/C++ build artifacts =====
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# ===== common build folders =====
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+compile_commands.json
+
+# ===== debugging / profiling =====
+*.pdb
+*.ilk
+*.dSYM/
+gmon.out
+
+# ===== logs / temp =====
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== JetBrains (CLion/IntelliJ) =====
+.idea/
+*.iml
+
+# ===== other editors =====
+*.code-workspace
+
