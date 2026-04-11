@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s https://www.google.com/search?q=codeforces+problem+minimum+cost+rearrange+array+prefix+sum+absolute+difference+transport+1D)",
+      "Bash(curl -s https://www.google.com/search?q=codeforces+%22prefix+sum%22+%22minimum+cost%22+%22moving%22+%22abs%22+rearrange+editorial)",
+      "WebSearch",
+      "WebFetch(domain:codeforces.com)"
+    ]
+  }
+}
