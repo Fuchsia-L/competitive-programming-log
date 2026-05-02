@@ -21,6 +21,7 @@
 - [ ] Dijkstra（非负边）
 - [ ] 0-1 BFS
 - [ ] Bellman-Ford / SPFA
+- [x] SPFA 判负环 → `SPFA判负环.cpp`
 - [ ] Floyd
 
 ### 图遍历 / 连通性
@@ -82,6 +83,7 @@
 - [ ] Z-Algorithm
 - [ ] Rolling Hash
 - [ ] Trie
+- [x] Manacher（最长回文半径，O(n)）→ `Manacher.cpp` + `Manacher.md`
 
 ---
 
