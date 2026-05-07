@@ -4,7 +4,12 @@
       "Bash(curl -s https://www.google.com/search?q=codeforces+problem+minimum+cost+rearrange+array+prefix+sum+absolute+difference+transport+1D)",
       "Bash(curl -s https://www.google.com/search?q=codeforces+%22prefix+sum%22+%22minimum+cost%22+%22moving%22+%22abs%22+rearrange+editorial)",
       "WebSearch",
-      "WebFetch(domain:codeforces.com)"
+      "WebFetch(domain:codeforces.com)",
+      "PowerShell(Rename-Item \"c:\\\\Users\\\\Fuchs\\\\Desktop\\\\competitive-programming-log\\\\刷题Solutions\\\\2026-5\\\\1800 模拟 CF66C Petya and File System.cpp\" \"1400 模拟 CF66C Petya and File System.cpp\")",
+      "Bash(mv \"2026-5/树的直径 P5536 核心城市.cpp\" \"2026-5/~1800 树的直径 P5536 核心城市.cpp\" && rm -f \"2026-5/树的直径 P5536 核心城市.exe\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Fuchs\\Desktop\\competitive-programming-log\\刷题Solutions\\2026-5"
     ]
   }
 }
