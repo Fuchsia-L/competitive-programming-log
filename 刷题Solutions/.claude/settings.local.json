@@ -6,7 +6,9 @@
       "WebSearch",
       "WebFetch(domain:codeforces.com)",
       "PowerShell(Rename-Item \"c:\\\\Users\\\\Fuchs\\\\Desktop\\\\competitive-programming-log\\\\刷题Solutions\\\\2026-5\\\\1800 模拟 CF66C Petya and File System.cpp\" \"1400 模拟 CF66C Petya and File System.cpp\")",
-      "Bash(mv \"2026-5/树的直径 P5536 核心城市.cpp\" \"2026-5/~1800 树的直径 P5536 核心城市.cpp\" && rm -f \"2026-5/树的直径 P5536 核心城市.exe\")"
+      "Bash(mv \"2026-5/树的直径 P5536 核心城市.cpp\" \"2026-5/~1800 树的直径 P5536 核心城市.cpp\" && rm -f \"2026-5/树的直径 P5536 核心城市.exe\")",
+      "PowerShell($response = Invoke-WebRequest -Uri \"https://codeforces.com/problemset/problem/2194/E\" -UserAgent \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/125.0.0.0 Safari/537.36\" -UseBasicParsing; $response.Content | Select-String -Pattern 'class=\"title\"' -AllMatches | ForEach-Object { $_.Matches } | Select-Object -First 5)",
+      "PowerShell($r = Invoke-RestMethod -Uri \"https://codeforces.com/api/contest.standings?contestId=2194\" -UseBasicParsing; $e = $r.result.problems | Where-Object { $_.index -eq 'E' }; $e.name)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Fuchs\\Desktop\\competitive-programming-log\\刷题Solutions\\2026-5"
